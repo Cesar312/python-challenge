@@ -7,8 +7,6 @@ months = []
 amount = []
 amount_change = []
 
-amount_start = 0
-
 with open(csvpath, newline='', encoding = 'UTF-8') as csvfile:
 
     csvreader = csv.reader(csvfile, delimiter= ',')
